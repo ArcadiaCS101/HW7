@@ -20,16 +20,14 @@ public class BandStrings {
 	// Song Title Length: <length>
 	// First Character: <char>
 	// Last Character: <char>
-	// Edge Case: If songTitle is null or empty, print "Error: Song title is empty
-	// or null."
 	public static void question_a(String songTitle) {
 		// TODO: Implement question_a
 	}
 
 	// QUESTION B: Setlist Search
 	//
-	// STRING FUNCTION TO USE: .indexOf(char ch) or .indexOf(String str)
-	// - Takes a char (or String) parameter representing the target to search for.
+	// STRING FUNCTION TO USE: .indexOf(String str)
+	// - Takes a String parameter representing the target to search for.
 	// - Returns an int representing the zero-based index of the FIRST occurrence.
 	// - Returns -1 if the target is NOT found in the string.
 	// Example: "Madison".indexOf('d') returns 2. "Madison".indexOf('z') returns -1.
@@ -46,9 +44,9 @@ public class BandStrings {
 
 	// QUESTION C: Album Tag Generator
 	//
-	// STRING FUNCTIONS TO USE: .replace(CharSequence target, CharSequence
-	// replacement) and .toUpperCase()
-	// - .replace(target, replacement) takes two String/char parameters and returns
+	// STRING FUNCTIONS TO USE: .replace(String target, String replacement) and
+	// .toUpperCase()
+	// - .replace(target, replacement) takes two String parameters and returns
 	// a new String
 	// with all instances of target swapped for replacement.
 	// Example: "hip hop".replace(" ", "") returns "hiphop".
